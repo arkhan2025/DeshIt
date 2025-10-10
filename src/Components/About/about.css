@@ -1,0 +1,70 @@
+body{
+    width: 796px;
+    margin: 0 auto;
+}
+
+.b{
+    width: 743px;
+    height: 142px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, #b94a5b, #6a4fff);
+}
+
+.all{
+    align-items: center;
+    display: flex;
+    width: 743px;
+    height: 81px;
+}
+
+.ins{
+    margin-left: 58px;
+    width: 129px;
+    height: 81px;
+    padding-top: 25px;
+}
+
+.amount{
+  padding-top: 6px;
+    font-size: 30px;
+}
+
+.des{
+  padding-top: 3px;
+  font-size: 14px;
+  opacity: 53%;
+}
+
+.ico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;  
+  width: 22px;       
+  height: 22px;      
+  color: white;    
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.calender {
+  color: #b94a5b;
+}
+
+.laptop {
+  color: #6a4fff;
+}
+
+.smile {
+  color: #f2c94c;
+}
+
+.award {
+  color: #4caf50;
+}
+
+.ico:hover {
+  transform: scale(1.2);
+  color: #ffffff; 
+}

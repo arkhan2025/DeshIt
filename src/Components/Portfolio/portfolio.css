@@ -1,0 +1,52 @@
+.red {
+  color: #b94a5b;
+}
+
+.extra {
+  margin-left: 21px;
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.i img {
+  width: auto;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+}
+
+.d {
+  width: 493px;
+  margin-left: 20px;
+  display: flow-root;
+}
+
+.d h1 {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.d h2 {
+  font-size: 13.51px;
+  margin-top: 4px;
+}
+
+.d p {
+  margin-block-start: 9px;
+  margin-top: 9px;
+  font-size: 9px;
+  color: #dbb9b9;
+}
+
+.d button {
+  margin-top: 13px;
+  border: none;
+  font-size: 9.85px;
+  border-radius: 4px;
+  height: 25px;
+  width: 88px;
+  background: linear-gradient(to top, #a94b7c 50%, #8d4db7 45%);
+  border: 1px solid black;
+  cursor: pointer;
+}

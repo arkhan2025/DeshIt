@@ -1,0 +1,74 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 955px; 
+  height: 78px;
+  background: radial-gradient(
+    ellipse at top,
+    #35359f 0%,
+    #33339a 30%,
+    #232369 65%,
+    #1d1d56 90%,
+    #1a1a48 100%
+  );
+  color: white;
+  z-index: 1000;
+  box-sizing: border-box;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+  transition: background 0.3s ease;
+  display: flex;
+  justify-content: center;
+}
+
+.header-container {
+  width: 796px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 80px;
+  box-sizing: border-box;
+}
+
+.header h1 {
+  font-size: 14px;
+}
+
+.header .red {
+  color: #b94a5b;
+}
+
+nav.desktop-nav {
+  display: flex;
+  gap: 24px;
+  position: relative;
+}
+
+nav.desktop-nav button {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 11px;
+  position: relative;
+  padding: 4px 0;
+  transition: color 0.3s ease;
+}
+
+nav.desktop-nav button.active {
+  color: #b94a5b;
+}
+
+nav.desktop-nav .underline {
+  position: absolute;
+  bottom: -4px;
+  height: 2px;
+  background: linear-gradient(to bottom, #b94a5b, #6a4fff);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  width: 0;
+  left: 0;
+}

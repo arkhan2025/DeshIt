@@ -1,0 +1,101 @@
+.projects-section{
+  margin-top: 20px;
+}
+
+.hea.hd {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.hd img {
+  width: 46px;
+  height: auto;
+  margin-left: 3px;
+}
+
+.hd h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.hea p {
+  margin-top: -20px;
+  margin-left: 20px;
+  text-align: left;
+  font-size: 12px;
+  width: 574px;
+  color: #dbb9b9;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 26px;
+  column-gap: 23px;
+}
+
+.cards {
+  display: grid;
+  width: 351px;
+  height: 303px;
+  border-radius: 4px;
+  background: #11111f;
+  transition: transform 0.4s ease;
+  padding: 13px 12px 8px 13px;
+
+}
+
+.cards .ima {
+  background: #ffffff;
+  width: 320px;
+  height: 199px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+    overflow: hidden;
+}
+
+.cards .ima img {
+  width: 300px;
+  height: 208px;
+  object-position: center;
+  display: block;
+}
+
+.cards .det {
+  text-align: left;
+}
+
+.cards .det h4 {
+  font-size: 11px;
+}
+
+.cards .det p {
+  font-size: 8px;
+  margin-top: -5px;
+  margin-bottom: 0px;
+  color: #666666;
+}
+
+.cards .det button {
+  font-size: 8px;
+  border: none;
+  background: transparent;
+  margin-left: -5px;
+  cursor: pointer;
+}
+
+.cards:hover {
+  transform: scale(1.02);
+}
+.col{
+  color: #b94a5b;
+}
