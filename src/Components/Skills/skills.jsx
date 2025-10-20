@@ -30,8 +30,8 @@ const skills = () => {
                 <img src={digitalocean} alt='digitalocean'/>
                 <img src={python} alt='python'/>
                 <img src={figma} alt='figma'/>
-                <img src={php} alt='php'/>
                 <img src={i} alt='i'/>
+                <img src={php} alt='php'/>
             </div>
             <div className="two">
                 <img src={Sk} alt='sk'/>
